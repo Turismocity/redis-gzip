@@ -1,0 +1,25 @@
+{
+  "name": "redis-gzip",
+  "version": "2.2.0",
+  "description": "Paquete que usamos para manejar redis y mergear cosas",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --no-timeouts",
+    "watch": "mocha --reporter spec --no-timeouts --watch"
+  },
+  "bugs": {
+    "url": "https://github.com/Turismocity/redis-gzip/issues"
+  },
+  "homepage": "https://github.com/Turismocity/redis-gzip#readme",
+  "dependencies": {
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "8.56.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.29.1",
+    "mocha": "10.3.0",
+    "q": "^1.5.1"
+  }
+}
